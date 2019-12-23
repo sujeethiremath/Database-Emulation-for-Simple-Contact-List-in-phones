@@ -1,0 +1,9 @@
+Nicole,Martinez,10,26,1990
+Peter,Butler,8,10,1991
+Kelly,Carter,4,7,1998
+Bobby,Garcia,2,27,1992
+Alan,Sanchez,2,20,1999
+Jeff,Powell,1,19,1999
+Debra,Wright,1,23,1990
+Frank,Adams,3,5,1992
+Rick,Harris,2,16,1990
