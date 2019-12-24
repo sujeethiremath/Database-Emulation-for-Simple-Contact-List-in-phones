@@ -69,19 +69,14 @@ Sample Input
 1. Data file
 
 
-Nicole,Martinez,10,26,1990
+  Nicole,Martinez,10,26,1990
+  Peter,Butler,8,10,1991
+  Kelly,Carter,4,7,1998
+  Bobby,Garcia,2,27,1992
+  Alan,Sanchez,2,20,1999
+  Jeff,Powell,1,19,1999
+  Debra,Wright,1,23,1990
 
-Peter,Butler,8,10,1991
-
-Kelly,Carter,4,7,1998
-
-Bobby,Garcia,2,27,1992
-
-Alan,Sanchez,2,20,1999
-
-Jeff,Powell,1,19,1999
-
-Debra,Wright,1,23,1990
 
 
 2. Operations file
