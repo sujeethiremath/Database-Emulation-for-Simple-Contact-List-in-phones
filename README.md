@@ -78,16 +78,21 @@ Sample Input
             
 2. Operations file
 
-
-S
-
-F Barber
-
-A Alice,Barber,3,14,1993
-
-S
-
-F Barber
+                        S
+                        F Barber
+                        A Alice,Barber,3,14,1993
+                        S
+                        F Barber
+                        F Martinez
+                        D Martinez
+                        D Smith
+                        S
+                        A Martin,Smith,3,21,1991
+                        A Sam,Carter,10,11,1997
+                        S
+                        D Carter
+                        R Carter
+                        S
 
 
 Output
