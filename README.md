@@ -106,57 +106,79 @@ Sample Output
 
 For the sample input given above, the program produces the following output:
 
-Loaded 7 records into contact list.
-
-Showing contact list:
-
-Peter Butler, 8/10/1991
-
-Kelly Carter, 4/7/1998
-
-Bobby Garcia, 2/27/1992
-
-Nicole Martinez, 10/26/1990
-
-Jeff Powell, 1/19/1999
-
-Alan Sanchez, 2/20/1999
-
-Debra Wright, 1/23/1990
-
-Find "Barber"
-
- Not found.
- 
- New contact added
- 
- Alice Barber, 3/14/1993
- 
- Showing contact list:
- 
- Alice Barber, 3/14/1993
- 
- Peter Butler, 8/10/1991
- 
- Kelly Carter, 4/7/1998
- 
- Bobby Garcia, 2/27/1992
- 
- Nicole Martinez, 10/26/1990
- 
- Jeff Powell, 1/19/1999
- 
- Alan Sanchez, 2/20/1999
- 
- Debra Wright, 1/23/1990
- 
- Find "Barber"
- 
-Found.
-
- Alice Barber, 3/14/1993
- 
- Wrote 7 records from contact list.
+      Loaded 7 records into contact list.
+      Showing contact list:
+        Peter Butler, 8/10/1991
+        Kelly Carter, 4/7/1998
+        Bobby Garcia, 2/27/1992
+        Nicole Martinez, 10/26/1990
+        Jeff Powell, 1/19/1999
+        Alan Sanchez, 2/20/1999
+        Debra Wright, 1/23/1990
+      Find "Barber"
+        Not found.
+      New contact added
+        Alice Barber, 3/14/1993
+      Showing contact list:
+        Alice Barber, 3/14/1993
+        Peter Butler, 8/10/1991
+        Kelly Carter, 4/7/1998
+        Bobby Garcia, 2/27/1992
+        Nicole Martinez, 10/26/1990
+        Jeff Powell, 1/19/1999
+        Alan Sanchez, 2/20/1999
+        Debra Wright, 1/23/1990
+      Find "Barber"
+        Found.
+        Alice Barber, 3/14/1993
+      Find "Martinez"
+        Found.
+        Nicole Martinez, 10/26/1990
+      Delete "Martinez"
+        Nicole Martinez, 10/26/1990
+        Done.
+      Delete "Smith"
+        Not found.
+      Showing contact list:
+        Alice Barber, 3/14/1993
+        Peter Butler, 8/10/1991
+        Kelly Carter, 4/7/1998
+        Bobby Garcia, 2/27/1992
+        Jeff Powell, 1/19/1999
+        Alan Sanchez, 2/20/1999
+        Debra Wright, 1/23/1990
+      New contact added
+        Martin Smith, 3/21/1991
+      New contact added
+        Sam Carter, 10/11/1997
+      Showing contact list:
+        Alice Barber, 3/14/1993
+        Peter Butler, 8/10/1991
+        Kelly Carter, 4/7/1998
+        Sam Carter, 10/11/1997
+        Bobby Garcia, 2/27/1992
+        Jeff Powell, 1/19/1999
+        Alan Sanchez, 2/20/1999
+        Martin Smith, 3/21/1991
+        Debra Wright, 1/23/1990
+      Delete "Carter"
+        Multiple matches for "Carter"
+        Kelly Carter, 4/7/1998
+        Sam Carter, 10/11/1997
+        Not done.
+      Remove "Carter"
+        Kelly Carter, 4/7/1998
+        Sam Carter, 10/11/1997
+        Done.
+      Showing contact list:
+        Alice Barber, 3/14/1993
+        Peter Butler, 8/10/1991
+        Bobby Garcia, 2/27/1992
+        Jeff Powell, 1/19/1999
+        Alan Sanchez, 2/20/1999
+        Martin Smith, 3/21/1991
+        Debra Wright, 1/23/1990
+    Wrote 7 records from contact list.
  
 
 Notice that the Database template class takes two parameters. The first one, ItemType, is the type of record data to store
